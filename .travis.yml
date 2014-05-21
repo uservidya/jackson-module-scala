@@ -11,5 +11,5 @@ script: sbt 'set resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.
 matrix:
  include:
   - jdk: openjdk7
- exclude:
-  - jdk: oraclejdk7 
+ #exclude:
+  #- jdk: oraclejdk7 
